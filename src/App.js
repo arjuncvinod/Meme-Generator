@@ -1,9 +1,12 @@
-import './App.css';
-
-function App() {
+import React from "react";
+import Header from "./components/Header";
+import Meme from "./components/Meme";
+import "./style.css"
+export default function App() {
   return (
-    <h1>hell0</h1>
+    <div>
+      <Header />
+      <Meme />
+    </div>
   );
 }
-
-export default App;
